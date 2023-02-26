@@ -111,6 +111,10 @@ a:hover {
     z-index: 1;
 }
 
+.lead {
+    font-style: italic;
+}
+
 .hero__content-width {
     max-width: 540px;
 }
@@ -136,6 +140,25 @@ a:hover {
 .hero__scroll-btn .bi {
     transition-delay: 0.8s;
     animation: bounce 1s infinite alternate;
+}
+
+.bookmark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bookmark > div > h3 {
+    text-align: center;
+}
+
+.bookmark > div > p {
+    font-style: italic;
+}
+
+.bookmark > div > p:nth-child(3) {
+    text-decoration: underline;
+    font-style:normal;
 }
 
 @keyframes bounce {
